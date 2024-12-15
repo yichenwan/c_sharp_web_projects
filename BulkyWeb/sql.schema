@@ -1,0 +1,13 @@
+CREATE TABLE Categories (
+    Id int,
+    Name nvarchar(255),
+    DisplayOrder int,
+    PRIMARY KEY (Id)
+);
+
+INSERT INTO Categories (Id, Name, DisplayOrder)
+VALUES (1, 'action', 1);
+INSERT INTO Categories (Id, Name, DisplayOrder)
+VALUES (2, 'SciFi', 2);
+INSERT INTO Categories (Id, Name, DisplayOrder)
+VALUES (3, 'History', 3);
